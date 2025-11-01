@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/1efb66f3b5.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row nav__content--wrapper">
+                <div class="nav__content">
+                    <div class="nav__logo">
+                        <img class="nav__logo--img" src="./assets/dbom_logo.png" alt="">
+                        <h2 class="nav__logo--title"><span class="red">D</span>-BOM</h2>
+                    </div>
+                    <div class="nav__links">
+                        <a href="#" id="homeLink" class="nav__link link__hover-effect"><span class="red">Home</span></a>
+                        <a href="#" id="findMovieLink" class="nav__link link__hover-effect">Find a movie</a>
+                        <a href="#" id="contactBtn" class="nav__link btn btn__contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="landing__page">
+        <div class="landing__page--content-wrapper">
+            <h1 class="landing__page--title"><span class="red">Data</span>base of Online Movies</h1>
+            <h2 class="landing__page---description">
+                Search thousands of movies instantly and we'll drop a <span class="red">D</span>&#8209BOM with 6 popular results
+            </h2>
+            <div class="input__wrapper">
+                <input id="queryInput" type="text"  class="input__search" placeholder="Search by any part of the Movie Title or keyword...">
+                <button id="searchBtn" type="button" class="search__btn btn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-spinner"></i>
+                </button>
+            </div>
+            <div class="landing__page--img-wrapper" style="position: relative;">
+            <img src="./assets/pexels-lucaspezeta-2398354.jpg" class="landing__page--img" alt="">
+                <div class="movie__results">
+                    <div class="movie__card">
+                        <img src="https://placehold.co/300x450?text=No+Image" 
+                        class="movie__card--poster" alt="Movie Poster">
+                        <h3 class="movie__card--title">Movie Title</h3>
+                        <p class="movie__card--year">Year:</p>                                        
+                        <p class="movie__card--rated">Rated:</p>                                        
+                        <p class="movie__card--runtime">Runtime:</p>                                        
+                        <p class="movie__card--director">Director:</p>
+                        <p class="movie__card--metascore">Metascore:</p>
+                        <p class="more__info">Click for more info</p>                                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+
+</html>
