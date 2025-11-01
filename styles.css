@@ -606,14 +606,19 @@ MOVIE PAGE
     }
     .movie__results {
         padding: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        display: none;
     }
     .movie__card {
-        height: auto;
+        flex: 30%;
+        height: 100%;
     }
     .movie__card--title {
         display: none;
     }
     .movie__card--poster {
+        height: 100%;
         border: none;
         margin-bottom: 0;
         padding: 0;
