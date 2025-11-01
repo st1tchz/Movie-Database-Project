@@ -1,7 +1,7 @@
 // http://www.omdbapi.com/?apikey=[94cc909a]&
 
 const apiKey = "94cc909a";
-const baseUrl = "http://www.omdbapi.com/"
+const baseUrl = "https://www.omdbapi.com/"
 
 const btn = document.querySelector(".search__btn");
 const input = document.querySelector(".input__wrapper input");
